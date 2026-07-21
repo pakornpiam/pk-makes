@@ -329,6 +329,9 @@ a {
 .thumb-pvc {
   background: linear-gradient(140deg, #1c2a44, #0f1930);
 }
+.thumb-chalak {
+  background: linear-gradient(140deg, #1e2c46, #10182c);
+}
 .thumb-frame {
   background: linear-gradient(140deg, #23324e, #121c31);
 }
