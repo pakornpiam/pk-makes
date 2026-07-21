@@ -22,13 +22,18 @@
     </a>
 
     <nav class="nav" id="nav">
-      <a href="#tools">Tools</a>
-      <a href="#tutorials">Tutorials</a>
-      <a href="#shop">Shop</a>
-      <a class="btn btn-donate" href="https://buy.stripe.com/4gMaEZds0g8t9ek8fy5ZC00" data-link="stripe-donate" target="_blank" rel="noopener">
+      <a href="#tools" data-i18n="nav.tools">Tools</a>
+      <a href="#tutorials" data-i18n="nav.tutorials">Tutorials</a>
+      <a href="#shop" data-i18n="nav.shop">Shop</a>
+      <a class="btn btn-donate" href="https://buy.stripe.com/4gMaEZds0g8t9ek8fy5ZC00" data-link="stripe-donate" data-i18n="nav.donate" target="_blank" rel="noopener">
         ☕ Donate
       </a>
     </nav>
+
+    <div class="lang-switch" id="langSwitch" role="group" aria-label="Language">
+      <button type="button" class="lang-btn" data-set-lang="en">EN</button>
+      <button type="button" class="lang-btn" data-set-lang="th">ไทย</button>
+    </div>
 
     <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -40,20 +45,20 @@
 <section class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="wrap hero-inner">
-    <p class="eyebrow">Free · Browser-based · No signup</p>
+    <p class="eyebrow" data-i18n="hero.eyebrow">Free · Browser-based · No signup</p>
     <h1>
-      Design it in your browser.<br />
-      <span class="accent">Print it at home.</span>
+      <span data-i18n="hero.line1">Design it in your browser.</span><br />
+      <span class="accent" data-i18n="hero.line2">Print it at home.</span>
     </h1>
-    <p class="lede">
+    <p class="lede" data-i18n="hero.lede">
       Free 3D-printing design tools — customize parametric models with a few sliders,
       export a ready-to-print STL, and make it real on your own printer.
     </p>
     <div class="hero-actions">
-      <a class="btn btn-primary" href="#tools">Explore the tools</a>
-      <a class="btn btn-ghost" href="#tutorials">See how it works</a>
+      <a class="btn btn-primary" href="#tools" data-i18n="hero.ctaPrimary">Explore the tools</a>
+      <a class="btn btn-ghost" href="#tutorials" data-i18n="hero.ctaGhost">See how it works</a>
     </div>
-    <p class="hero-note">Made for beginners — if you can move a slider, you can design a part.</p>
+    <p class="hero-note" data-i18n="hero.note">Made for beginners — if you can move a slider, you can design a part.</p>
   </div>
 </section>
 
@@ -61,8 +66,8 @@
 <section class="section" id="tools">
   <div class="wrap">
     <header class="section-head">
-      <h2>The tools</h2>
-      <p>Each one runs free in your browser. Pick a type, tweak it, download the STL.</p>
+      <h2 data-i18n="tools.heading">The tools</h2>
+      <p data-i18n="tools.sub">Each one runs free in your browser. Pick a type, tweak it, download the STL.</p>
     </header>
 
     <div class="tools-grid">
@@ -74,13 +79,13 @@
         <div class="tool-body">
           <div class="tool-title-row">
             <h3>PVC Fitting Generator</h3>
-            <span class="badge badge-live">Live</span>
+            <span class="badge badge-live" data-i18n="common.live">Live</span>
           </div>
-          <p>
+          <p data-i18n="tool.pvc.desc">
             Couplings, elbows, tees, reducers and caps — sized to real pipe ODs with a
             perfect socket fit. 3D-printable and support-friendly.
           </p>
-          <a class="btn btn-primary btn-block" href="https://pvcfitting.pkroaming.com" target="_blank" rel="noopener">
+          <a class="btn btn-primary btn-block" href="https://pvcfitting.pkroaming.com" target="_blank" rel="noopener" data-i18n="common.tryFree">
             Try it free →
           </a>
         </div>
@@ -94,13 +99,13 @@
         <div class="tool-body">
           <div class="tool-title-row">
             <h3>Chalak 3D Label Studio</h3>
-            <span class="badge badge-live">Live</span>
+            <span class="badge badge-live" data-i18n="common.live">Live</span>
           </div>
-          <p>
+          <p data-i18n="tool.chalak.desc">
             Design custom 3D-printable labels and tags — pick a shape, add English or Thai
             text, and export a ready-to-print STL.
           </p>
-          <a class="btn btn-primary btn-block" href="https://chalakstudio.pkroaming.com/" target="_blank" rel="noopener">
+          <a class="btn btn-primary btn-block" href="https://chalakstudio.pkroaming.com/" target="_blank" rel="noopener" data-i18n="common.tryFree">
             Try it free →
           </a>
         </div>
@@ -116,13 +121,13 @@
         <div class="tool-body">
           <div class="tool-title-row">
             <h3>Frame Generator</h3>
-            <span class="badge badge-soon">Coming soon</span>
+            <span class="badge badge-soon" data-i18n="common.comingSoon">Coming soon</span>
           </div>
-          <p>
+          <p data-i18n="tool.frame.desc">
             Custom picture frames sized to any photo, with snap-fit joints so large frames
             print in pieces on a small bed.
           </p>
-          <span class="btn btn-disabled btn-block" aria-disabled="true">Coming soon</span>
+          <span class="btn btn-disabled btn-block" aria-disabled="true" data-i18n="common.comingSoon">Coming soon</span>
         </div>
       </article>
 
@@ -136,13 +141,13 @@
         <div class="tool-body">
           <div class="tool-title-row">
             <h3>Kumiko Lattice</h3>
-            <span class="badge badge-soon">Coming soon</span>
+            <span class="badge badge-soon" data-i18n="common.comingSoon">Coming soon</span>
           </div>
-          <p>
+          <p data-i18n="tool.kumiko.desc">
             Traditional Japanese kumiko patterns as printable lattice panels — 30+ designs
             in frames you can hang, backlight or inset.
           </p>
-          <span class="btn btn-disabled btn-block" aria-disabled="true">Coming soon</span>
+          <span class="btn btn-disabled btn-block" aria-disabled="true" data-i18n="common.comingSoon">Coming soon</span>
         </div>
       </article>
 
@@ -156,13 +161,13 @@
         <div class="tool-body">
           <div class="tool-title-row">
             <h3>Box Generator</h3>
-            <span class="badge badge-soon">Coming soon</span>
+            <span class="badge badge-soon" data-i18n="common.comingSoon">Coming soon</span>
           </div>
-          <p>
+          <p data-i18n="tool.box.desc">
             Parametric boxes with real lids — screw-on, hinged, snap or slide — plus
             heat-set insert bosses. Round or rectangular.
           </p>
-          <span class="btn btn-disabled btn-block" aria-disabled="true">Coming soon</span>
+          <span class="btn btn-disabled btn-block" aria-disabled="true" data-i18n="common.comingSoon">Coming soon</span>
         </div>
       </article>
     </div>
@@ -173,30 +178,30 @@
 <section class="section section-alt" id="how">
   <div class="wrap">
     <header class="section-head">
-      <h2>Why it's easy</h2>
-      <p>No CAD skills, no software to install, no account to make.</p>
+      <h2 data-i18n="how.heading">Why it's easy</h2>
+      <p data-i18n="how.sub">No CAD skills, no software to install, no account to make.</p>
     </header>
 
     <div class="feature-grid">
       <div class="feature">
         <div class="feature-ico">🖱️</div>
-        <h3>Customize in your browser</h3>
-        <p>Move a few sliders and watch the 3D model update live. That's the whole workflow.</p>
+        <h3 data-i18n="feature1.title">Customize in your browser</h3>
+        <p data-i18n="feature1.desc">Move a few sliders and watch the 3D model update live. That's the whole workflow.</p>
       </div>
       <div class="feature">
         <div class="feature-ico">💾</div>
-        <h3>Export a clean STL</h3>
-        <p>One click gives you a watertight, print-ready file in millimetres.</p>
+        <h3 data-i18n="feature2.title">Export a clean STL</h3>
+        <p data-i18n="feature2.desc">One click gives you a watertight, print-ready file in millimetres.</p>
       </div>
       <div class="feature">
         <div class="feature-ico">🖨️</div>
-        <h3>Print at home</h3>
-        <p>Designed to print well on desktop FDM printers — support-friendly by default.</p>
+        <h3 data-i18n="feature3.title">Print at home</h3>
+        <p data-i18n="feature3.desc">Designed to print well on desktop FDM printers — support-friendly by default.</p>
       </div>
       <div class="feature">
         <div class="feature-ico">🎁</div>
-        <h3>Free, no signup</h3>
-        <p>Every tool is free to use. No login, no watermark, no catch.</p>
+        <h3 data-i18n="feature4.title">Free, no signup</h3>
+        <p data-i18n="feature4.desc">Every tool is free to use. No login, no watermark, no catch.</p>
       </div>
     </div>
   </div>
@@ -206,20 +211,20 @@
 <section class="section" id="tutorials">
   <div class="wrap">
     <header class="section-head">
-      <h2>Tutorials</h2>
-      <p>Visual guides that walk you from "never done this" to a printed part.</p>
+      <h2 data-i18n="tutorials.heading">Tutorials</h2>
+      <p data-i18n="tutorials.sub">Visual guides that walk you from "never done this" to a printed part.</p>
     </header>
 
     <div class="tutorial-grid">
       <figure class="tutorial-card">
         <!-- Drop the PVC infographic here as assets/tutorials/pvc-fitting-guide.png -->
         <img src="assets/tutorials/pvc-fitting-guide.png" alt="PVC Fitting Generator — how it works guide" loading="lazy" />
-        <figcaption>PVC Fitting Generator — full walkthrough</figcaption>
+        <figcaption data-i18n="tutorial.pvc.caption">PVC Fitting Generator — full walkthrough</figcaption>
       </figure>
 
       <figure class="tutorial-card tutorial-placeholder">
-        <div class="tut-ph">More guides coming</div>
-        <figcaption>Frame, Kumiko &amp; Box tutorials — coming soon</figcaption>
+        <div class="tut-ph" data-i18n="tutorial.placeholder.text">More guides coming</div>
+        <figcaption data-i18n="tutorial.placeholder.caption">Frame, Kumiko &amp; Box tutorials — coming soon</figcaption>
       </figure>
     </div>
   </div>
@@ -230,10 +235,10 @@
   <div class="wrap">
     <div class="shop-banner">
       <div class="shop-copy">
-        <h2>Don't have a printer?</h2>
-        <p>Get ready-made prints and models from the shop — no printer required.</p>
+        <h2 data-i18n="shop.heading">Don't have a printer?</h2>
+        <p data-i18n="shop.desc">Get ready-made prints and models from the shop — no printer required.</p>
       </div>
-      <a class="btn btn-primary" href="#" data-link="shop" target="_blank" rel="noopener">Visit the shop →</a>
+      <a class="btn btn-primary" href="#" data-link="shop" target="_blank" rel="noopener" data-i18n="shop.cta">Visit the shop →</a>
     </div>
   </div>
 </section>
@@ -246,30 +251,30 @@
         <span class="brand-mark">PK</span>
         <span class="brand-name">Makes</span>
       </a>
-      <p>Free 3D-printing design tools. Customize in your browser, print at home.</p>
+      <p data-i18n="footer.tagline">Free 3D-printing design tools. Customize in your browser, print at home.</p>
     </div>
 
     <nav class="footer-links">
-      <h4>Tools</h4>
+      <h4 data-i18n="footer.toolsHeading">Tools</h4>
       <a href="https://pvcfitting.pkroaming.com" target="_blank" rel="noopener">PVC Fittings</a>
       <a href="https://chalakstudio.pkroaming.com/" target="_blank" rel="noopener">Chalak Label Studio</a>
-      <a href="#tools">Frame (soon)</a>
-      <a href="#tools">Kumiko (soon)</a>
-      <a href="#tools">Box (soon)</a>
+      <a href="#tools" data-i18n="footer.frameSoon">Frame (soon)</a>
+      <a href="#tools" data-i18n="footer.kumikoSoon">Kumiko (soon)</a>
+      <a href="#tools" data-i18n="footer.boxSoon">Box (soon)</a>
     </nav>
 
     <nav class="footer-links">
-      <h4>More</h4>
-      <a href="#tutorials">Tutorials</a>
-      <a href="#" data-link="shop">Shop</a>
-      <a href="https://buy.stripe.com/4gMaEZds0g8t9ek8fy5ZC00" data-link="stripe-donate" target="_blank" rel="noopener">Donate ☕</a>
+      <h4 data-i18n="footer.moreHeading">More</h4>
+      <a href="#tutorials" data-i18n="tutorials.heading">Tutorials</a>
+      <a href="#" data-link="shop" data-i18n="nav.shop">Shop</a>
+      <a href="https://buy.stripe.com/4gMaEZds0g8t9ek8fy5ZC00" data-link="stripe-donate" target="_blank" rel="noopener" data-i18n="footer.donateLink">Donate ☕</a>
     </nav>
 
     <nav class="footer-links">
-      <h4>Connect</h4>
+      <h4 data-i18n="footer.connectHeading">Connect</h4>
       <a href="#" data-link="social-youtube">YouTube</a>
       <a href="#" data-link="social-instagram">Instagram</a>
-      <a href="#" data-link="contact">Contact</a>
+      <a href="#" data-link="contact" data-i18n="footer.contact">Contact</a>
     </nav>
   </div>
   <div class="wrap footer-bottom">

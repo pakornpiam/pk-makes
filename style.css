@@ -160,6 +160,32 @@ a {
 .nav > a:not(.btn):hover {
   color: var(--text);
 }
+.lang-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-2);
+}
+.lang-btn {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s;
+}
+.lang-btn:hover {
+  color: var(--text);
+}
+.lang-btn[aria-pressed="true"] {
+  background: var(--accent);
+  color: #fff;
+}
 .menu-toggle {
   display: none;
   flex-direction: column;
