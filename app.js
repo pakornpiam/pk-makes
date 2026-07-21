@@ -65,6 +65,8 @@ const translations = {
       "Traditional Japanese kumiko patterns as printable lattice panels — 30+ designs in frames you can hang, backlight or inset.",
     "tool.box.desc":
       "Parametric boxes with real lids — screw-on, hinged, snap or slide — plus heat-set insert bosses. Round or rectangular.",
+    "tool.tray.desc":
+      "Custom-sized organizer trays with dividers and compartments — desk trays, drawer inserts and parts bins sized exactly to what you're storing.",
     "how.heading": "Why it's easy",
     "how.sub": "No CAD skills, no software to install, no account to make.",
     "feature1.title": "Customize in your browser",
@@ -88,6 +90,7 @@ const translations = {
     "footer.frameSoon": "Frame (soon)",
     "footer.kumikoSoon": "Kumiko (soon)",
     "footer.boxSoon": "Box (soon)",
+    "footer.traySoon": "Tray (soon)",
     "footer.moreHeading": "More",
     "footer.donateLink": "Donate ☕",
     "footer.connectHeading": "Connect",
@@ -125,6 +128,8 @@ const translations = {
       "ลวดลายคุมิโกะแบบญี่ปุ่นดั้งเดิม เป็นแผ่นลายฉลุพิมพ์ได้ — มากกว่า 30 ลาย ใส่กรอบแขวนผนัง ใช้กับไฟแบ็คไลท์ หรือฝังลงในชิ้นงานได้",
     "tool.box.desc":
       "กล่องพารามิเตอร์พร้อมฝาปิดจริง — แบบขันเกลียว บานพับ สแนป หรือแบบเลื่อน พร้อมรูใส่นัตความร้อน ทั้งทรงกลมและทรงเหลี่ยม",
+    "tool.tray.desc":
+      "ถาดจัดระเบียบขนาดตามสั่ง พร้อมช่องแบ่งและแผงกั้น — ถาดใส่ของบนโต๊ะ ถาดใส่ในลิ้นชัก และกล่องแยกชิ้นส่วน ปรับขนาดให้พอดีกับของที่จะเก็บ",
     "how.heading": "ทำไมถึงใช้ง่าย",
     "how.sub": "ไม่ต้องมีทักษะ CAD ไม่ต้องติดตั้งซอฟต์แวร์ ไม่ต้องสมัครสมาชิก",
     "feature1.title": "ปรับแต่งในเบราว์เซอร์",
@@ -148,6 +153,7 @@ const translations = {
     "footer.frameSoon": "Frame (เร็ว ๆ นี้)",
     "footer.kumikoSoon": "Kumiko (เร็ว ๆ นี้)",
     "footer.boxSoon": "Box (เร็ว ๆ นี้)",
+    "footer.traySoon": "Tray (เร็ว ๆ นี้)",
     "footer.moreHeading": "เพิ่มเติม",
     "footer.donateLink": "บริจาค ☕",
     "footer.connectHeading": "ติดต่อ",

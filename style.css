@@ -367,6 +367,9 @@ a {
 .thumb-box {
   background: linear-gradient(140deg, #202c46, #131d31);
 }
+.thumb-tray {
+  background: linear-gradient(140deg, #1d2a45, #11192e);
+}
 .tool-body {
   display: flex;
   flex-direction: column;
