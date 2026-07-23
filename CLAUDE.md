@@ -87,3 +87,15 @@ links out to the tool's own subdomain (e.g. `pvcfitting.pkroaming.com`,
 is only the landing page. When adding a new tool card, follow the existing
 markup shape (thumb → title row with badge → description → CTA button) and
 add a matching footer link under "Tools".
+
+**Tutorial guides** (`#tutorials` in `index.html`, `.tutorial-card` in
+`style.css`): each card is a full-page screenshot thumbnail
+(`assets/tutorials/<name>.png`) linking to a standalone, self-contained HTML
+guide under `tutorials/<name>.html` (its own `<style>`, no dependency on
+`style.css` or `app.js` — these guides are static one-offs, often lifted
+from a Claude-generated artifact, so they carry their own fonts/theme
+variables inline). When porting an artifact in, strip its claude.ai
+iframe-sandbox preamble script and force dark mode
+(`<html data-theme="dark">`) to match the rest of the site, since these
+guides may otherwise follow the visitor's OS light/dark preference on their
+own.
