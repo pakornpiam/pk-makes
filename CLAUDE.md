@@ -40,6 +40,9 @@ deploys. Live at `pkmakes.pkroaming.com` (custom domain, CNAME to
   commit.
 - PR descriptions must include 3 sections: What (what was done) / Why
   (reason for the change) / Test plan (how it was tested).
+- Before merging a PR, preview the branch locally (`python -m http.server`
+  from the repo root, per "Running locally" above) so it can be reviewed in
+  a browser first — every time, not just on request.
 
 ## Architecture
 
